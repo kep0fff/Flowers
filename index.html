@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flowers</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container__nav">
+    <nav class="nav">
+      <div class="nav__inner">
+        <img src="./images/logo.png" alt="#">
+
+        <ul class="nav__menu">
+          <li class="nav-menu__item"><a href="#" class="nav-menu__link">Головна</a></li>
+          <li class="nav-menu__item"><a href="#" class="nav-menu__link">Каталог</a></li>
+          <li class="nav-menu__item"><a href="#" class="nav-menu__link">Про нас</a></li>
+          <li class="nav-menu__item"><a href="#" class="nav-menu__link">Як замовити</a></li>
+          <li class="nav-menu__item"><a href="#" class="nav-menu__link">Відгуки</a></li>
+          <li class="nav-menu__item"><a href="#" class="nav-menu__link">Контакти</a></li>
+        </ul>
+
+      </div>
+    </nav>
+    </div>
+
+    <section class="header__content">
+      <div class="header__inner">
+        <div class="header__title">
+        <p class="header__title-1"><span>Неймовірні</span></p>
+        <p class="header__title-2"> Букети <span>зі свіжих квітів</span></p>
+        <p class="header__title-3">З доставкою по Києву протягом 1 години</p>
+
+        <a href="#" class="header__button">ЗАМОВИТИ КВІТИ</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <ul class="services__list">
+        <li class="services-list__item">
+          <img src="./images/service-flower.png" alt="#" class="services__img">
+          <p class="services__text">Щоденне оновлення свіжих квітів</p>
+        </li>
+        <li class="services-list__item">
+          <img src="./images/service-location.png" alt="#" class="services__img">
+          <p class="services__text">Щоденне оновлення свіжих квітів</p>
+        </li>
+        <li class="services-list__item">
+          <img src="./images/service-assortement.png" alt="#" class="services__img">
+          <p class="services__text">Щоденне оновлення свіжих квітів</p>
+        </li>
+      </ul>
+    </section>
+  </header>
+
+  <main class="main">
+
+    <section class="text__left">
+      <div class="catalog__left-inner">
+        <p class="catalog__title">Каталог</p>
+      </div>
+    </section>
+
+    <section class="delivery">
+      <ul class="delivery_list">
+        <li class="delivery__list-title"><h2>Доставка квітів в Києві</h2></li>
+
+        <ul class="delivery__list-inner">
+          <li class="delivery__list-item"><a href="" class="delivery__list-link delivery__list-link1">Ціна ... <span class="deliver__arrow-down"><img src="./images/arrow-down.svg" alt=""></span></a></li>
+          <li class="delivery__list-item"><a href="" class="delivery__list-link delivery__list-link2">Квіти ... <span class="deliver__arrow-down"><img src="./images/arrow-down.svg" alt=""></span></a></li>
+          <li class="delivery__list-item"><a href="" class="delivery__list-link delivery__list-link3">Кому ... <span class="deliver__arrow-down"><img src="./images/arrow-down.svg" alt=""></span></a></li>
+          <li class="delivery__list-item"><a href="" class="delivery__list-link delivery__list-link4">Привід... <span class="deliver__arrow-down"><img src="./images/arrow-down.svg" alt=""></span></a></li>
+          <li class="delivery__list-item"><a href="" class="delivery__list-link delivery__list-link5">Стиль ... <span class="deliver__arrow-down"><img src="./images/arrow-down.svg" alt=""></span></a></li>
+        </ul>
+      </ul>
+
+
+      <div class="delivery__list-item1" id="item1">
+        <ul class="delivery__list-check">
+          <li class="delivery-list__check-item" >
+            <label for="checkbox" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              < 200 ₴ 
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox2" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox2" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              200 - 500 ₴ 
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox3" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox3" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              > 1000 ₴
+            </label>
+          </li>
+        </ul>
+        <button class="check__button">Застосувати</button>
+      </div>
+
+      <div class="delivery__list-item2" id="item2">
+        <ul class="delivery__list-check">
+          <li class="delivery-list__check-item" >
+            <label for="checkbox4" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox4" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Троянда
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox5" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox5" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Еустома
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox6" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox6" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Хризантема
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox7" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox7" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Лілія
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox8" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox8" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Тюльпан
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox9" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox9" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Гортензія
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox10" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox10" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Альстромерія
+            </label>
+          </li>
+        </ul>
+        <button class="check__button">Застосувати</button>
+      </div>
+       
+      <div class="delivery__list-item3" id="item3">
+        <ul class="delivery__list-check">
+          <li class="delivery-list__check-item" >
+            <label for="checkbox11" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox11" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Жінці
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox12" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox12" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Чоловіку
+            </label>
+          </li>
+        </ul>
+        <button class="check__button">Застосувати</button>
+      </div>
+      <div class=" delivery__list-item4" id="item4">
+        <ul class="delivery__list-check">
+          <li class="delivery-list__check-item" >
+            <label for="checkbox13" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox13" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              День народження
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox14" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox14" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Весілля
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox15" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox15" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Кохання
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox16" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox16" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Співчуваю
+            </label>
+          </li>
+        </ul>
+        <button class="check__button">Застосувати</button>
+      </div>
+      <div class=" delivery__list-item5" id="item5">
+        <ul class="delivery__list-check">
+          <li class="delivery-list__check-item" >
+            <label for="checkbox17" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox17" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Вільний
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox18" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox18" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Каркасний
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox19" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox19" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              В коробці
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox20" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox20" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              В кошику
+            </label>
+          </li>
+          <li class="delivery-list__check-item" >
+            <label for="checkbox21" class="checkbox__text">
+              <input type="checkbox" name="" id="checkbox21" class="real-checkbox">
+              <span class="custom__checkbox"></span>
+              Каскадний
+            </label>
+          </li>
+        </ul>
+        <button class="check__button">Застосувати</button>
+      </div> 
+    </section>
+
+    <section class="bestseller">
+      <div class="bestseller__wrapper">
+        <h2 class="bestseller__title">Хіт Продажів</h2>
+      
+
+        <ul class="catalog">
+          <li class="catalog__item catalog__item1" >
+            <img class="action" src="./images/action.png" alt="#">
+            <img src="./images/flower-1.png" alt="" class="catalog__item-img">
+            <div class="catalog__discount-inner">
+              <p class="catalog__price discount" style="font-weight: 300;">500 ₴</p>
+              <p class="catalog__discount">700 ₴</p>
+            </div>
+            <p class="catalog__item-name">Мінібукет 1400-2</p>
+          </li>
+          <li class="catalog__item">
+            <img src="./images/flower-2.png" alt="" class="catalog__item-img">
+            <p class="catalog__price">800 ₴</p>
+            <p class="catalog__item-name">Мінібукет 1600-6</p>
+          </li>
+          <li class="catalog__item">
+            <img src="./images/flower-3.png" alt="" class="catalog__item-img">
+            <p class="catalog__price">1000 ₴</p>
+            <p class="catalog__item-name">Троянда Freedom 51 шт.</p>
+          </li>
+          <li class="catalog__item">
+            <img src="./images/flower-4.png" alt="" class="catalog__item-img">
+            <p class="catalog__price">680 ₴</p>
+            <p class="catalog__item-name">Мінібукет 1400-3</p>
+          </li>
+          <li class="catalog__item catalog__item5">
+            <img class="new" src="./images/new.png" alt="#">
+            <img src="./images/flower-5.png" alt="" class="catalog__item-img">
+            <p class="catalog__price">450 ₴</p>
+            <p class="catalog__item-name">«Бархатний сезон»</p>
+          </li>
+          <li class="catalog__item catalog__item6">
+            <img class="inwater" src="./images/water.png" alt="#">
+            <img src="./images/flower-6.png" alt="" class="catalog__item-img">
+            <p class="catalog__price">56 ₴</p>
+            <p class="catalog__item-name">Нобіліс</p>
+          </li>
+        </ul>
+
+        <a href="#" class="bestseller__button">Дивитись всі</a>
+      </div>
+    </section>
+
+    <section class="qualityindetals">
+      <div class="quality__inner">
+        <p class="qualityindetals__title">Якість в деталях</p>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="gallery__inner">
+        <div class="gallery__list">
+                
+           <div class="gallery__item1">
+            <img class="gallery__img" src="./images/gallery-1.jpg" alt="#">
+            <div class="gallery__text">
+              <h3 class="gallery__title">
+                Контроль свіжості квітів 
+              </h3>
+              <p class="gallery__subtitle">
+                Ми співпрацюємо з кращими постачальниками квітів і готові запропонувати Вам <span>широкий асортимент квітів</span>, починаючи від місцевих сортів і закінчуючи рідкісними імпортованими варіантами.
+                <br>
+                <br>
+                Ваша близька людина отримає найкращий подарунок, адже ми ретельно підбираємо кожну квітку для вашого букету.
+              </p>
+            </div>
+          </div>
+          <div class="gallery__item">
+              <div class="gallery__text">
+                <h3 class="gallery__title">
+                  Оформлення букетів
+                </h3>
+                <p class="gallery__subtitle">
+                  Ми готові зібрати <span>унікальний букет по індивідуальному замовленню</span>. Наші флористи втілять в життя будь яку Вашу ідею!
+                </p>
+              </div>
+              <img class="gallery__img" src="./images/gallery-2.jpg" alt="#">
+          </div>
+          <div class="gallery__item">
+              
+              <img class="gallery__img" src="./images/gallery-3.jpg" alt="#">
+              <div class="gallery__text">
+                <h3 class="gallery__title">
+                  Швидка доставка
+                </h3>
+                <p class="gallery__subtitle">
+                  Ми робимо доставки по Україні протягом <span>3-х годин</span> з моменту оплати замовлення.  
+                </p>
+              </div>
+        
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="text__left">
+      <div class="who-buy__left-inner">
+        <p class="who-buy__title">Не можете визначитись з вибором букету?</p>
+      </div>
+    </section>
+
+    <div class="application__background">
+      <div class="application__background-inner">
+        <img src="./images/background-3.png" alt="">
+      </div>
+    </div>
+
+    <section class="application ">
+        <div id="form__submit-win" class="form__submit" >
+          <h3 class="form__submit-title">Дякуємо!</h3>
+          <p class="form__submit-text">Найближчим часом наш менеджер звʼяжеться з вами.</p>
+        </div>
+        <div class="application__inner">
+          <div class="application__left">
+            <p class="application__left-title">
+              <span>Відправте заявку</span><br>
+              і Вам зателефонують <br>
+              протягом однієї хвилини
+            </p>
+
+            <form action="#" class="application__form">
+                <input class="input__text" type="text" placeholder="Ім’я">
+                <img class="form__input-text" src="./images/person_.svg" alt="">
+              
+                <input class="input__tel" type="tel" placeholder="Телефон">
+                <img class="form__input-tel" src="./images/phone.svg" alt="">
+              
+              <button id="app__submit" href="#app_submit" class="application__submit">Залишити заявку</button>
+            </form>
+          </div>
+          <div class="application__right">
+            <p class="application__right-text">
+              Наш менеджер по телефону: 
+            </p>
+            <ul class="application__right-list">
+              <li class="application__list-item">
+                <img src="./images/check.png" alt="">
+                <p><span>Відповість</span> на будь які запитання</p>
+              </li>
+              <li class="application__list-item">
+                <img src="./images/check.png" alt="">
+                <p><span>Підбере рішення</span> відповідно 
+                до ваших запитів та бажань</p>
+              </li>
+              <li class="application__list-item">
+                <img src="./images/check.png" alt="">
+                <p><span>Підготує унікальну пропозицію</span>
+                та детально розповість Вам про наші букети</p>
+              </li>
+              <li class="application__list-item">
+                <img src="./images/check.png" alt="">
+                <p><span>Оформить</span> для Вас подарунок-сюрприз</p>
+              </li>
+            </ul>
+          </div>
+        </div>  
+    </section>
+
+    <section class="clients">
+      <div class="clients__inner">
+        <p class="clients__title">Наші клієнти</p>
+      </div>
+    </section>
+
+    <section class="swiper__clients">
+      <div class="swiper__container">
+        <div class="mySwiper__clients">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide__item">
+            <div class="swiper-slide__item">
+              <img src="./images/swiper-1.png" alt="#">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__item">
+              <img src="./images/swiper-2.png" alt="#">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__item">
+              <img src="./images/swiper-3.png" alt="#">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__item">
+              <img src="./images/swiper-4.png" alt="#">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__item">
+              <img src="./images/swiper-1.png" alt="#">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__item">
+              <img src="./images/swiper-2.png" alt="#">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__item">
+              <img src="./images/swiper-3.png" alt="#">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__item">
+              <img src="./images/swiper-4.png" alt="#">
+            </div>
+          </div>
+        </div>
+
+        
+
+        </div>
+        <div class="container-arrow ">
+          <div class="button-left">
+              <img src="./images/arrow-left.svg" alt="arrow-left">
+          </div>
+          <div class="button-right">
+              <img src="./images/arrow-right.svg" alt="arrow-right">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <ul class="footer__list-left">
+        <li class="footer-list__left-item"><a class="footer__left-link">Головна</a></li>
+        <li class="footer-list__left-item"><a class="footer__left-link">Каталог</a></li>
+        <li class="footer-list__left-item"><a class="footer__left-link">Відгуки</a></li>
+        <li class="footer-list__left-item"><a class="footer__left-link">Як замовити</a></li>
+        <li class="footer-list__left-item"><a class="footer__left-link">Контакти</a></li>
+      </ul>
+      <div class="footer__list-center">
+         <img src="./images/footer-logo.png" alt="#">
+        <div class="footer__list-social">
+          <a href="#" class=""><img src="./images/footer-phone_.png" alt=""></a>
+          <a href="#" class=""><img src="./images/footer-instagram.png" alt=""></a>
+          <a href="#" class=""><img src="./images/footer-facebook_.png" alt=""></a>
+        </div>
+        
+      </div>
+      <ul class="footer__list-right">
+          <li class="footer-list__right-item">
+            <p class="footer-list__item-title">
+              +38097 777 55 77
+            </p>
+            <p class="footer-list__item-subtitle">
+              Наш телефон
+            </p>
+          </li>
+          <li class="footer-list__right-item">
+            <p class="footer-list__item-title">
+              info@floverlover.ua
+            </p>
+            <p class="footer-list__item-subtitle">
+              Контактний е-mail
+            </p>
+          </li>
+          <li class="footer-list__right-item">
+            <p class="footer-list__item-title">
+              Київ
+            </p>
+            <p>
+              вул. Маріупольська, 14.
+            </p>
+            <p class="footer-list__item-subtitle">
+              Наш магазин
+            </p>
+          </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
